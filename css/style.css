@@ -1,0 +1,118 @@
+/* CSS personnalisé pour BioFarm */
+
+/* Variables de couleurs pour le thème bio */
+:root {
+    --primary-green: #28a745;
+    --light-green: #d4edda;
+    --dark-green: #155724;
+    --white: #ffffff;
+    --light-gray: #f8f9fa;
+}
+
+/* Style général du body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Style de la section hero */
+.hero-section {
+    background: linear-gradient(135deg, var(--light-green) 0%, var(--white) 100%);
+    min-height: 400px;
+}
+
+/* Style des cartes produits */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Style des boutons */
+.btn-success {
+    background-color: var(--primary-green);
+    border-color: var(--primary-green);
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: var(--dark-green);
+    border-color: var(--dark-green);
+    transform: translateY(-2px);
+}
+
+/* Style de la navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Style du footer */
+footer {
+    background-color: var(--dark-green) !important;
+}
+
+/* Style des tableaux */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.table thead {
+    background-color: var(--primary-green);
+    color: white;
+}
+
+/* Style des formulaires */
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #e9ecef;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--primary-green);
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+/* Style responsive pour les images */
+.img-fluid {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Animation pour les éléments au survol */
+.shadow-sm:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+/* Style pour les prix */
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--primary-green);
+}
+
+/* Style pour les badges de quantité */
+.badge-quantity {
+    background-color: var(--light-green);
+    color: var(--dark-green);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+}
