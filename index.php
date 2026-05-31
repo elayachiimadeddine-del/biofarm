@@ -65,7 +65,7 @@ try {
                     <?php foreach ($produits_vedette as $produit) { ?>
                         <div class="col-md-4 mb-4">
                             <div class="card h-100 shadow-sm">
-                                <img src="<?php echo htmlspecialchars($produit['image_url']); ?>" class="card-img-top" alt="Produit" style="height: 200px; object-fit: cover;">
+                               <img src="<?php echo htmlspecialchars($produit['image_url']); ?>" class="card-img-top" alt="Produit" style="height: 200px; object-fit: cover;">
                                 <div class="card-body d-flex flex-column">
                                     <h5 class="card-title text-success fw-bold">
                                         <?php echo htmlspecialchars($produit['nom']); ?>
