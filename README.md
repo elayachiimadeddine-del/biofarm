@@ -4,14 +4,6 @@ Application web de gestion de produits biologiques, développée dans le cadre d
 
 ---
 
-## L'idée
-
-On a eu cette idée en pensant aux producteurs locaux qui gèrent encore leurs stocks à la main. On voulait faire quelque chose de concret, pas juste une app basique pour avoir une note. BioFarm permet de consulter un catalogue de produits bio, d'en ajouter via un formulaire, et de voir les dernières nouveautés sur la page d'accueil.
-
-Rien de compliqué, mais tout est fonctionnel et sécurisé.
-
----
-
 ## L'équipe
 
 - Asmae Ziani  
@@ -73,16 +65,6 @@ Ouvrir `http://localhost/biofarm` dans le navigateur, ça marche.
 
 On a utilisé des requêtes préparées PDO donc pas d'injection SQL possible. Les sorties HTML passent par htmlspecialchars() pour le XSS. Et le fichier de config avec le mot de passe est dans le .gitignore, on a failli oublier ça au début.
 
----
-
-## Ce qu'on aurait voulu ajouter
-
-- Une page de connexion admin
-- La modification et suppression de produits (on a fait que l'ajout)
-- Un vrai upload d'image au lieu de saisir le chemin manuellement
-- Des filtres par catégorie ou par prix
-
----
 
 ## Structure des fichiers
 
