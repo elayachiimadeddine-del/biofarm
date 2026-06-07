@@ -88,13 +88,14 @@ On a utilisé des requêtes préparées PDO donc pas d'injection SQL possible. L
 
 ```
 biofarm/
-├── config/database.php     
-├── css/style.css           
-├── images/                 
-├── index.php               
-├── produits.php            
-├── ajouter.php             
-├── script.js               
+├── config/database.php
+├── css/style.css
+├── images/
+├── index.php
+├── produits.php
+├── ajouter.php
+├── script.js
+├── biofarm_db.sql       ← ici
 ├── .gitignore
 └── .htaccess
 ```
