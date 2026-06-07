@@ -1,10 +1,6 @@
 # Fichiers sensibles
 config/database.php
 
-# Images uploadées
-images/*
-!images/.gitkeep
-
 # Fichiers système
 .DS_Store
 Thumbs.db
