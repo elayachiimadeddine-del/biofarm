@@ -1,8 +1,5 @@
 <?php
-/**
- * Traitement et formulaire d'ajout de produit
- * Gestion réglementaire via la superglobale $_POST - Chapitre 13 (Page 27)
- */
+
 require_once 'config/database.php';
 
 $success = "";
